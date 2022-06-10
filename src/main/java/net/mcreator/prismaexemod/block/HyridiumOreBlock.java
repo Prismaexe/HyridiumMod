@@ -47,7 +47,7 @@ public class HyridiumOreBlock extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:hyridium_ore")
 	public static final Block block = null;
 	public HyridiumOreBlock(PrismaexemodModElements instance) {
-		super(instance, 27);
+		super(instance, 6);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

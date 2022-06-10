@@ -17,34 +17,34 @@ public class KrystalHoeItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:krystal_hoe")
 	public static final Item block = null;
 	public KrystalHoeItem(PrismaexemodModElements instance) {
-		super(instance, 56);
+		super(instance, 83);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 1741;
+				return 4595;
 			}
 
 			public float getEfficiency() {
-				return 14f;
+				return 21f;
 			}
 
 			public float getAttackDamage() {
-				return 6f;
+				return 14f;
 			}
 
 			public int getHarvestLevel() {
-				return 8;
+				return 16;
 			}
 
 			public int getEnchantability() {
-				return 56;
+				return 112;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(KrystalItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(KrystalIngotItem.block, (int) (1)));
 			}
 		}, 0, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("krystal_hoe"));

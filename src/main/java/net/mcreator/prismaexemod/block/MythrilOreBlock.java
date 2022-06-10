@@ -26,7 +26,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
@@ -35,6 +34,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.prismaexemod.itemgroup.HyridiumModItemGroup;
 import net.mcreator.prismaexemod.item.MythrilIngotItem;
 import net.mcreator.prismaexemod.PrismaexemodModElements;
 
@@ -47,7 +47,7 @@ public class MythrilOreBlock extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:mythril_ore")
 	public static final Block block = null;
 	public MythrilOreBlock(PrismaexemodModElements instance) {
-		super(instance, 110);
+		super(instance, 53);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -56,7 +56,7 @@ public class MythrilOreBlock extends PrismaexemodModElements.ModElement {
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(HyridiumModItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

@@ -16,7 +16,7 @@ public class AmaniumIngotItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:amanium_ingot")
 	public static final Item block = null;
 	public AmaniumIngotItem(PrismaexemodModElements instance) {
-		super(instance, 88);
+		super(instance, 31);
 	}
 
 	@Override

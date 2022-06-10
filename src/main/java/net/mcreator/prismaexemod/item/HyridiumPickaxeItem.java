@@ -17,7 +17,7 @@ public class HyridiumPickaxeItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:hyridium_pickaxe")
 	public static final Item block = null;
 	public HyridiumPickaxeItem(PrismaexemodModElements instance) {
-		super(instance, 32);
+		super(instance, 8);
 	}
 
 	@Override

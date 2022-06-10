@@ -47,7 +47,7 @@ public class LithiumOreBlock extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:lithium_ore")
 	public static final Block block = null;
 	public LithiumOreBlock(PrismaexemodModElements instance) {
-		super(instance, 5);
+		super(instance, 3);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

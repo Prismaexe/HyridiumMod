@@ -17,7 +17,7 @@ public class MythrilAxeItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:mythril_axe")
 	public static final Item block = null;
 	public MythrilAxeItem(PrismaexemodModElements instance) {
-		super(instance, 116);
+		super(instance, 59);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class MythrilPickaxeItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:mythril_pickaxe")
 	public static final Item block = null;
 	public MythrilPickaxeItem(PrismaexemodModElements instance) {
-		super(instance, 115);
+		super(instance, 58);
 	}
 
 	@Override

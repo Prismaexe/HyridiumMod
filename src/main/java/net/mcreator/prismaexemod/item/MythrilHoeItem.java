@@ -17,7 +17,7 @@ public class MythrilHoeItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:mythril_hoe")
 	public static final Item block = null;
 	public MythrilHoeItem(PrismaexemodModElements instance) {
-		super(instance, 119);
+		super(instance, 62);
 	}
 
 	@Override

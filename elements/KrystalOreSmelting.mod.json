@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
-    "xpReward": 2.8,
+    "xpReward": 5.6,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
@@ -44,7 +44,7 @@
       "value": "CUSTOM:KrystalOre"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:Krystal"
+      "value": "CUSTOM:KrystalIngot"
     },
     "name": "krystal_ore_smelting",
     "namespace": "mod"

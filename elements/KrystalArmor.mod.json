@@ -38,12 +38,12 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 60,
-    "damageValueHelmet": 8,
-    "damageValueBody": 20,
-    "damageValueLeggings": 24,
-    "damageValueBoots": 8,
-    "enchantability": 36,
+    "maxDamage": 120,
+    "damageValueHelmet": 16,
+    "damageValueBody": 40,
+    "damageValueLeggings": 48,
+    "damageValueBoots": 16,
+    "enchantability": 72,
     "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {
@@ -51,7 +51,7 @@
     },
     "repairItems": [
       {
-        "value": "CUSTOM:Krystal"
+        "value": "CUSTOM:KrystalIngot"
       }
     ]
   }

@@ -4,58 +4,16 @@
     {
       "name": "RandomIngot",
       "type": "gui",
-      "sortid": 1,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "random_ingot"
     },
     {
-      "name": "Random",
-      "type": "procedure",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "random",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "RandomOre",
-      "type": "item",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "random_ore"
-    },
-    {
       "name": "Lithium",
       "type": "item",
-      "sortid": 4,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -65,7 +23,7 @@
     {
       "name": "LithiumOre",
       "type": "block",
-      "sortid": 5,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -75,7 +33,7 @@
     {
       "name": "LithiumBlock",
       "type": "block",
-      "sortid": 6,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -85,7 +43,7 @@
     {
       "name": "LithiumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -95,7 +53,7 @@
     {
       "name": "LithiumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,18 +61,9 @@
       "path": "~/-----Lithium"
     },
     {
-      "name": "HyridiumMod",
-      "type": "tab",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hyridium_mod"
-    },
-    {
       "name": "HyridiumIngot",
       "type": "item",
-      "sortid": 26,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -124,7 +73,7 @@
     {
       "name": "HyridiumOre",
       "type": "block",
-      "sortid": 27,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -134,7 +83,7 @@
     {
       "name": "HyridiumBlock",
       "type": "block",
-      "sortid": 28,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -144,7 +93,7 @@
     {
       "name": "HyridiumOreBlockRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -154,7 +103,7 @@
     {
       "name": "HyridiumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -164,7 +113,7 @@
     {
       "name": "HyridiumOreSmelting",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -174,7 +123,7 @@
     {
       "name": "HyridiumPickaxe",
       "type": "tool",
-      "sortid": 32,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +133,7 @@
     {
       "name": "HyridiumAxe",
       "type": "tool",
-      "sortid": 33,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -194,7 +143,7 @@
     {
       "name": "HyridiumSword",
       "type": "tool",
-      "sortid": 34,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -204,7 +153,7 @@
     {
       "name": "HyridiumShovel",
       "type": "tool",
-      "sortid": 35,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -214,7 +163,7 @@
     {
       "name": "HyridiumHoe",
       "type": "tool",
-      "sortid": 36,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -224,7 +173,7 @@
     {
       "name": "HyridiumPickaxeRecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -234,7 +183,7 @@
     {
       "name": "HyridiumAxeRecipe",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -244,7 +193,7 @@
     {
       "name": "HyridiumSwordRecipe",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -254,7 +203,7 @@
     {
       "name": "HyridiumShovelRecipe",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -264,7 +213,7 @@
     {
       "name": "HyridiumHoeRecipe",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -274,7 +223,7 @@
     {
       "name": "HyridiumArmor",
       "type": "armor",
-      "sortid": 42,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -290,7 +239,7 @@
     {
       "name": "HyridiumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -300,7 +249,7 @@
     {
       "name": "HyridiumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -310,7 +259,7 @@
     {
       "name": "HyridiumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -320,12 +269,660 @@
     {
       "name": "HyridiumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "hyridium_armor_boots_recipe",
       "path": "~/---Hyridium"
+    },
+    {
+      "name": "AmaniumIngot",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_ingot",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_ore",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumBlock",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_block",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_ore_block_recipe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_block_ore_recipe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumOreSmelting",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_ore_smelting",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumPickaxe",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_pickaxe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumAxe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_axe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumSword",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_sword",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumShovel",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_shovel",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumHoe",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_hoe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_pickaxe_recipe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_axe_recipe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_sword_recipe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_shovel_recipe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_hoe_recipe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumArmor",
+      "type": "armor",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_armor_helmet_recipe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_armor_body_recipe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_armor_leggings_recipe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "AmaniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amanium_armor_boots_recipe",
+      "path": "~/--Amanium"
+    },
+    {
+      "name": "MythrilIngot",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_ingot",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilOre",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_ore",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilBlock",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_block",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_ore_block_recipe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_block_ore_recipe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilOreSmelting",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_ore_smelting",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilPickaxe",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_pickaxe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilAxe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_axe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilSword",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_sword",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilShovel",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_shovel",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilHoe",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_hoe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_pickaxe_recipe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilAxeRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_axe_recipe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilSwordRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_sword_recipe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilShovelRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_shovel_recipe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilHoeRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_hoe_recipe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilArmor",
+      "type": "armor",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_armor_helmet_recipe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_armor_body_recipe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_armor_leggings_recipe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "MythrilArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mythril_armor_boots_recipe",
+      "path": "~/-Mythril"
+    },
+    {
+      "name": "KrystalIngot",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_ingot",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalOre",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_ore",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalBlock",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_block",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_ore_block_recipe",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_block_ore_recipe",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalOreSmelting",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_ore_smelting",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalPickaxe",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_pickaxe",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalAxe",
+      "type": "tool",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_axe",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalSword",
+      "type": "tool",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_sword",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalShovel",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_shovel",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalHoe",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_hoe",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_pickaxe_recipe",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalAxeRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_axe_recipe",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalSwordRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_sword_recipe",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalShovelRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_shovel_recipe",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalHoeRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_hoe_recipe",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalArmor",
+      "type": "armor",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_armor_helmet_recipe",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_armor_body_recipe",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_armor_leggings_recipe",
+      "path": "~/----Krystal"
+    },
+    {
+      "name": "KrystalArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "krystal_armor_boots_recipe",
+      "path": "~/----Krystal"
     }
   ],
   "variable_elements": [],
@@ -334,21 +931,55 @@
     "en_us": {
       "block.prismaexemod.lithium_block": "Block of Lithium",
       "item.prismaexemod.hyridium_armor_helmet": "Hyridium Helmet",
-      "item.prismaexemod.hyridium_shovel": "Hyridium Shovel",
-      "item.prismaexemod.random_ore": "Random Ore",
+      "block.prismaexemod.krystal_block": "Block of Krystal",
+      "item.prismaexemod.mythril_sword": "Mythril Sword",
       "block.prismaexemod.hyridium_block": "Block of Hyridium",
-      "block.prismaexemod.lithium_ore": "Lithium Ore",
+      "item.prismaexemod.amanium_armor_helmet": "Amanium Helmet",
+      "item.prismaexemod.amanium_hoe": "Amanium Hoe",
       "item.prismaexemod.hyridium_ingot": "Hyridium",
-      "item.prismaexemod.hyridium_armor_leggings": "Hyridium Leggings",
+      "block.prismaexemod.lithium_ore": "Lithium Ore",
+      "item.prismaexemod.mythril_armor_chestplate": "Mythril Chestplate",
       "item.prismaexemod.hyridium_hoe": "Hyridium Hoe",
+      "item.prismaexemod.mythril_axe": "Mythril Axe",
+      "item.prismaexemod.krystal_shovel": "Krystal Shovel",
+      "item.prismaexemod.krystal_armor_chestplate": "Krystal Chestplate",
+      "item.prismaexemod.krystal_armor_leggings": "Krystal Leggings",
+      "item.prismaexemod.mythril_armor_boots": "Mythril Boots",
+      "item.prismaexemod.mythril_armor_helmet": "Mythril Helmet",
+      "item.prismaexemod.krystal_hoe": "Krystal Hoe",
       "item.prismaexemod.hyridium_armor_boots": "Hyridium Boots",
-      "itemGroup.tabhyridium_mod": "Hyridium Mod",
-      "item.prismaexemod.hyridium_sword": "Hyridium Sword",
-      "item.prismaexemod.hyridium_pickaxe": "Hyridium Pickaxe",
+      "item.prismaexemod.krystal_axe": "Krystal Axe",
+      "item.prismaexemod.mythril_armor_leggings": "Mythril Leggings",
+      "block.prismaexemod.mythril_ore": "Mythril Ore",
       "item.prismaexemod.lithium": "Lithium",
+      "item.prismaexemod.amanium_shovel": "Amanium Shovel",
+      "item.prismaexemod.mythril_hoe": "Mythril Hoe",
+      "block.prismaexemod.amanium_block": "Block of Amanium",
+      "item.prismaexemod.hyridium_shovel": "Hyridium Shovel",
+      "item.prismaexemod.krystal_sword": "Krystal Sword",
+      "item.prismaexemod.amanium_sword": "Amanium Sword",
+      "block.prismaexemod.amanium_ore": "Amanium Ore",
+      "item.prismaexemod.mythril_pickaxe": "Mythril Pickaxe",
+      "item.prismaexemod.mythril_shovel": "Mythril Shovel",
+      "item.prismaexemod.krystal_armor_boots": "Krystal Boots",
+      "item.prismaexemod.amanium_axe": "Amanium Axe",
+      "item.prismaexemod.amanium_armor_boots": "Amanium Boots",
+      "block.prismaexemod.mythril_block": "Block of Mythril",
+      "item.prismaexemod.mythril_ingot": "Mythril",
       "item.prismaexemod.hyridium_axe": "Hyridium Axe",
       "item.prismaexemod.hyridium_armor_chestplate": "Hyridium Chestplate",
-      "block.prismaexemod.hyridium_ore": "Hyridium Ore"
+      "item.prismaexemod.krystal_ingot": "Krystal",
+      "block.prismaexemod.krystal_ore": "Krystal Ore",
+      "item.prismaexemod.amanium_armor_chestplate": "Amanium Chestplate",
+      "item.prismaexemod.hyridium_armor_leggings": "Hyridium Leggings",
+      "item.prismaexemod.amanium_pickaxe": "Amanium Pickaxe",
+      "item.prismaexemod.hyridium_sword": "Hyridium Sword",
+      "item.prismaexemod.hyridium_pickaxe": "Hyridium Pickaxe",
+      "item.prismaexemod.krystal_armor_helmet": "Krystal Helmet",
+      "item.prismaexemod.amanium_ingot": "Amanium",
+      "block.prismaexemod.hyridium_ore": "Hyridium Ore",
+      "item.prismaexemod.amanium_armor_leggings": "Amanium Leggings",
+      "item.prismaexemod.krystal_pickaxe": "Krystal Pickaxe"
     }
   },
   "foldersRoot": {

@@ -17,7 +17,7 @@ public class MythrilShovelItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:mythril_shovel")
 	public static final Item block = null;
 	public MythrilShovelItem(PrismaexemodModElements instance) {
-		super(instance, 118);
+		super(instance, 61);
 	}
 
 	@Override

@@ -29,7 +29,7 @@ public class HyridiumArmorItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:hyridium_armor_boots")
 	public static final Item boots = null;
 	public HyridiumArmorItem(PrismaexemodModElements instance) {
-		super(instance, 42);
+		super(instance, 13);
 	}
 
 	@Override

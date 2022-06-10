@@ -17,30 +17,30 @@ public class AmaniumHoeItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:amanium_hoe")
 	public static final Item block = null;
 	public AmaniumHoeItem(PrismaexemodModElements instance) {
-		super(instance, 98);
+		super(instance, 41);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 660;
+				return 1741;
 			}
 
 			public float getEfficiency() {
-				return 9f;
+				return 14f;
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 6f;
 			}
 
 			public int getHarvestLevel() {
-				return 4;
+				return 8;
 			}
 
 			public int getEnchantability() {
-				return 28;
+				return 56;
 			}
 
 			public Ingredient getRepairMaterial() {

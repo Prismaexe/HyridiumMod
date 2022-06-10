@@ -29,7 +29,7 @@ public class AmaniumArmorItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:amanium_armor_boots")
 	public static final Item boots = null;
 	public AmaniumArmorItem(PrismaexemodModElements instance) {
-		super(instance, 104);
+		super(instance, 47);
 	}
 
 	@Override
@@ -37,17 +37,17 @@ public class AmaniumArmorItem extends PrismaexemodModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 30;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 60;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{4, 12, 10, 4}[slot.getIndex()];
+				return new int[]{8, 24, 20, 8}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 18;
+				return 36;
 			}
 
 			@Override

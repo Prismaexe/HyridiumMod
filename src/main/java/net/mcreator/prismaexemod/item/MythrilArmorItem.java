@@ -29,7 +29,7 @@ public class MythrilArmorItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:mythril_armor_boots")
 	public static final Item boots = null;
 	public MythrilArmorItem(PrismaexemodModElements instance) {
-		super(instance, 125);
+		super(instance, 68);
 	}
 
 	@Override

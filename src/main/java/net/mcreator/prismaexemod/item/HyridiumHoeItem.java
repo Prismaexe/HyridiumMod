@@ -17,7 +17,7 @@ public class HyridiumHoeItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:hyridium_hoe")
 	public static final Item block = null;
 	public HyridiumHoeItem(PrismaexemodModElements instance) {
-		super(instance, 36);
+		super(instance, 11);
 	}
 
 	@Override

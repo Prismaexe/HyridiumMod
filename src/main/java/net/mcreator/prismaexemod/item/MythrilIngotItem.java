@@ -16,7 +16,7 @@ public class MythrilIngotItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:mythril_ingot")
 	public static final Item block = null;
 	public MythrilIngotItem(PrismaexemodModElements instance) {
-		super(instance, 109);
+		super(instance, 52);
 	}
 
 	@Override

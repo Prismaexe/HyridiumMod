@@ -11,17 +11,17 @@
       "value": "TOOLS"
     },
     "toolType": "Spade",
-    "harvestLevel": 8,
-    "efficiency": 14.0,
+    "harvestLevel": 16,
+    "efficiency": 21.0,
     "attackSpeed": 1.0,
-    "enchantability": 56,
-    "damageVsEntity": 8.0,
-    "usageCount": 1741,
+    "enchantability": 112,
+    "damageVsEntity": 16.0,
+    "usageCount": 4595,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:Krystal"
+        "value": "CUSTOM:KrystalIngot"
       }
     ],
     "immuneToFire": false,

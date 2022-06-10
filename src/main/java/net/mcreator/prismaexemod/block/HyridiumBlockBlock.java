@@ -24,7 +24,7 @@ public class HyridiumBlockBlock extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:hyridium_block")
 	public static final Block block = null;
 	public HyridiumBlockBlock(PrismaexemodModElements instance) {
-		super(instance, 28);
+		super(instance, 7);
 	}
 
 	@Override

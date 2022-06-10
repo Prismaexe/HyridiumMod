@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Krystal"
+        "value": "CUSTOM:KrystalIngot"
       },
       {
-        "value": "CUSTOM:Krystal"
+        "value": "CUSTOM:KrystalIngot"
       },
       {
-        "value": "CUSTOM:Krystal"
+        "value": "CUSTOM:KrystalIngot"
       },
       {
-        "value": "CUSTOM:Krystal"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Krystal"
-      },
-      {
-        "value": "CUSTOM:Krystal"
+        "value": "CUSTOM:KrystalIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Krystal"
+        "value": "CUSTOM:KrystalIngot"
+      },
+      {
+        "value": "CUSTOM:KrystalIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:KrystalIngot"
       }
     ],
     "recipeReturnStack": {

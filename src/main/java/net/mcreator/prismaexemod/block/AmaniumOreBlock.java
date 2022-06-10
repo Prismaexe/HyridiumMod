@@ -26,7 +26,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
@@ -35,6 +34,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.prismaexemod.itemgroup.HyridiumModItemGroup;
 import net.mcreator.prismaexemod.item.AmaniumIngotItem;
 import net.mcreator.prismaexemod.PrismaexemodModElements;
 
@@ -47,7 +47,7 @@ public class AmaniumOreBlock extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:amanium_ore")
 	public static final Block block = null;
 	public AmaniumOreBlock(PrismaexemodModElements instance) {
-		super(instance, 89);
+		super(instance, 32);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -56,12 +56,12 @@ public class AmaniumOreBlock extends PrismaexemodModElements.ModElement {
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(HyridiumModItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(6f, 8.705505632961241f).setLightLevel(s -> 0)
-					.harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(12f, 15.157165665103982f).setLightLevel(s -> 0)
+					.harvestLevel(8).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("amanium_ore");
 		}
 
@@ -107,8 +107,8 @@ public class AmaniumOreBlock extends PrismaexemodModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(33)
-					.square().func_242731_b(5);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(18)
+					.square().func_242731_b(3);
 			event.getRegistry().register(feature.setRegistryName("amanium_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("prismaexemod:amanium_ore"), configuredFeature);
 		}

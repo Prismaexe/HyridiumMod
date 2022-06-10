@@ -17,7 +17,7 @@ public class HyridiumSwordItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:hyridium_sword")
 	public static final Item block = null;
 	public HyridiumSwordItem(PrismaexemodModElements instance) {
-		super(instance, 34);
+		super(instance, 12);
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class HyridiumSwordItem extends PrismaexemodModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 16f;
 			}
 
 			public int getHarvestLevel() {

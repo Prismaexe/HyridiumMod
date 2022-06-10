@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "hyridium_axe",
+    "texture": "nlaxyzzaxe",
     "customModelName": "Normal",
     "name": "Hyridium Axe",
     "specialInfo": [],
@@ -15,7 +15,7 @@
     "efficiency": 12.0,
     "attackSpeed": 1.0,
     "enchantability": 42,
-    "damageVsEntity": 6.0,
+    "damageVsEntity": 27.0,
     "usageCount": 1164,
     "blocksAffected": [],
     "hasGlow": false,

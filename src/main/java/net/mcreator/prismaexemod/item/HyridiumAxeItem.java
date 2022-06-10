@@ -17,7 +17,7 @@ public class HyridiumAxeItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:hyridium_axe")
 	public static final Item block = null;
 	public HyridiumAxeItem(PrismaexemodModElements instance) {
-		super(instance, 33);
+		super(instance, 9);
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class HyridiumAxeItem extends PrismaexemodModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 25f;
 			}
 
 			public int getHarvestLevel() {

@@ -16,7 +16,7 @@ public class HyridiumIngotItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:hyridium_ingot")
 	public static final Item block = null;
 	public HyridiumIngotItem(PrismaexemodModElements instance) {
-		super(instance, 26);
+		super(instance, 5);
 	}
 
 	@Override

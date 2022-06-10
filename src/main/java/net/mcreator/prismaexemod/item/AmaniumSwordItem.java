@@ -17,30 +17,30 @@ public class AmaniumSwordItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:amanium_sword")
 	public static final Item block = null;
 	public AmaniumSwordItem(PrismaexemodModElements instance) {
-		super(instance, 96);
+		super(instance, 39);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 660;
+				return 1741;
 			}
 
 			public float getEfficiency() {
-				return 9f;
+				return 14f;
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 6f;
 			}
 
 			public int getHarvestLevel() {
-				return 4;
+				return 8;
 			}
 
 			public int getEnchantability() {
-				return 28;
+				return 56;
 			}
 
 			public Ingredient getRepairMaterial() {

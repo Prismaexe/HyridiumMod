@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Krystal"
+      "value": "CUSTOM:KrystalIngot"
     },
     "name": "krystal_block_ore_recipe",
     "namespace": "mod"

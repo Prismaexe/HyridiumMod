@@ -29,7 +29,7 @@ public class KrystalArmorItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:krystal_armor_boots")
 	public static final Item boots = null;
 	public KrystalArmorItem(PrismaexemodModElements instance) {
-		super(instance, 62);
+		super(instance, 89);
 	}
 
 	@Override
@@ -37,17 +37,17 @@ public class KrystalArmorItem extends PrismaexemodModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 60;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 120;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{8, 24, 20, 8}[slot.getIndex()];
+				return new int[]{16, 48, 40, 16}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 36;
+				return 72;
 			}
 
 			@Override
@@ -57,7 +57,7 @@ public class KrystalArmorItem extends PrismaexemodModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(KrystalItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(KrystalIngotItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)

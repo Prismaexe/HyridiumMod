@@ -17,30 +17,30 @@ public class AmaniumPickaxeItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:amanium_pickaxe")
 	public static final Item block = null;
 	public AmaniumPickaxeItem(PrismaexemodModElements instance) {
-		super(instance, 94);
+		super(instance, 37);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 660;
+				return 1741;
 			}
 
 			public float getEfficiency() {
-				return 9f;
+				return 14f;
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 6f;
 			}
 
 			public int getHarvestLevel() {
-				return 4;
+				return 8;
 			}
 
 			public int getEnchantability() {
-				return 28;
+				return 56;
 			}
 
 			public Ingredient getRepairMaterial() {

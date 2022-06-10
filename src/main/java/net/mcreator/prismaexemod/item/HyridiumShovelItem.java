@@ -17,7 +17,7 @@ public class HyridiumShovelItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:hyridium_shovel")
 	public static final Item block = null;
 	public HyridiumShovelItem(PrismaexemodModElements instance) {
-		super(instance, 35);
+		super(instance, 10);
 	}
 
 	@Override

@@ -12,11 +12,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.prismaexemod.PrismaexemodModElements;
 
 @PrismaexemodModElements.ModElement.Tag
-public class LithiumIngotItem extends PrismaexemodModElements.ModElement {
-	@ObjectHolder("prismaexemod:lithium_ingot")
+public class KrystalIngotItem extends PrismaexemodModElements.ModElement {
+	@ObjectHolder("prismaexemod:krystal_ingot")
 	public static final Item block = null;
-	public LithiumIngotItem(PrismaexemodModElements instance) {
-		super(instance, 25);
+	public KrystalIngotItem(PrismaexemodModElements instance) {
+		super(instance, 73);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class LithiumIngotItem extends PrismaexemodModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("lithium_ingot");
+			setRegistryName("krystal_ingot");
 		}
 
 		@Override

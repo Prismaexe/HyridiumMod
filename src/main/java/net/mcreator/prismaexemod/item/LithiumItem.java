@@ -16,7 +16,7 @@ public class LithiumItem extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:lithium")
 	public static final Item block = null;
 	public LithiumItem(PrismaexemodModElements instance) {
-		super(instance, 4);
+		super(instance, 2);
 	}
 
 	@Override

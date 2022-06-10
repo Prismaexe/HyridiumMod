@@ -26,7 +26,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
@@ -35,7 +34,8 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.prismaexemod.item.KrystalItem;
+import net.mcreator.prismaexemod.itemgroup.HyridiumModItemGroup;
+import net.mcreator.prismaexemod.item.KrystalIngotItem;
 import net.mcreator.prismaexemod.PrismaexemodModElements;
 
 import java.util.Random;
@@ -47,7 +47,7 @@ public class KrystalOreBlock extends PrismaexemodModElements.ModElement {
 	@ObjectHolder("prismaexemod:krystal_ore")
 	public static final Block block = null;
 	public KrystalOreBlock(PrismaexemodModElements instance) {
-		super(instance, 47);
+		super(instance, 74);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -56,12 +56,12 @@ public class KrystalOreBlock extends PrismaexemodModElements.ModElement {
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(HyridiumModItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(12f, 15.157165665103982f).setLightLevel(s -> 0)
-					.harvestLevel(8).harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(24f, 26.390158215457888f).setLightLevel(s -> 0)
+					.harvestLevel(16).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("krystal_ore");
 		}
 
@@ -70,7 +70,7 @@ public class KrystalOreBlock extends PrismaexemodModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(KrystalItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(KrystalIngotItem.block, (int) (1)));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
@@ -107,8 +107,8 @@ public class KrystalOreBlock extends PrismaexemodModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(18)
-					.square().func_242731_b(3);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 1)).range(9).square()
+					.func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("krystal_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("prismaexemod:krystal_ore"), configuredFeature);
 		}
