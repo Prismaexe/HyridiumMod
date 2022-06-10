@@ -1,0 +1,36 @@
+{
+  "group": "prismaexemod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "prismaexemod:krystal"
+    },
+    "1": {
+      "item": "prismaexemod:krystal"
+    },
+    "2": {
+      "item": "prismaexemod:krystal"
+    },
+    "3": {
+      "item": "prismaexemod:krystal"
+    },
+    "5": {
+      "item": "prismaexemod:krystal"
+    },
+    "6": {
+      "item": "prismaexemod:krystal"
+    },
+    "8": {
+      "item": "prismaexemod:krystal"
+    }
+  },
+  "result": {
+    "item": "prismaexemod:krystal_armor_leggings",
+    "count": 1
+  }
+}

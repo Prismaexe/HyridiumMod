@@ -1,0 +1,42 @@
+{
+  "group": "prismaexemod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "prismaexemod:mythril_ingot"
+    },
+    "1": {
+      "item": "prismaexemod:mythril_ingot"
+    },
+    "2": {
+      "item": "prismaexemod:mythril_ingot"
+    },
+    "3": {
+      "item": "prismaexemod:mythril_ingot"
+    },
+    "4": {
+      "item": "prismaexemod:mythril_ingot"
+    },
+    "5": {
+      "item": "prismaexemod:mythril_ingot"
+    },
+    "6": {
+      "item": "prismaexemod:mythril_ingot"
+    },
+    "7": {
+      "item": "prismaexemod:mythril_ingot"
+    },
+    "8": {
+      "item": "prismaexemod:mythril_ingot"
+    }
+  },
+  "result": {
+    "item": "prismaexemod:mythril_block",
+    "count": 1
+  }
+}

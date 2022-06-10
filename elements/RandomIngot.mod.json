@@ -1,0 +1,53 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "blue.png",
+          "use1Xscale": true,
+          "name": "blue.png",
+          "x": -105,
+          "y": -339
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lancer",
+          "onClick": {
+            "name": "Random"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Lancer",
+          "x": 186,
+          "y": 53
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 111,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #111",
+          "x": 204,
+          "y": 89
+        }
+      }
+    ]
+  }
+}

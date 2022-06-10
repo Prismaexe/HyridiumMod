@@ -1,0 +1,27 @@
+{
+  "group": "prismaexemod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "prismaexemod:amanium_ingot"
+    },
+    "1": {
+      "item": "prismaexemod:amanium_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "prismaexemod:amanium_hoe",
+    "count": 1
+  }
+}

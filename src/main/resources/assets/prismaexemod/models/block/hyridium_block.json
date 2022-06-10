@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "prismaexemod:blocks/hyridium_ore_block",
+    "particle": "prismaexemod:blocks/hyridium_ore_block"
+  }
+}

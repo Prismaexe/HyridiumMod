@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "prismaexemod:blocks/krystal_ore",
+    "particle": "prismaexemod:blocks/krystal_ore"
+  }
+}

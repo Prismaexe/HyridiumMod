@@ -1,0 +1,30 @@
+{
+  "group": "prismaexemod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "prismaexemod:krystal"
+    },
+    "1": {
+      "item": "prismaexemod:krystal"
+    },
+    "2": {
+      "item": "prismaexemod:krystal"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "prismaexemod:krystal_pickaxe",
+    "count": 1
+  }
+}

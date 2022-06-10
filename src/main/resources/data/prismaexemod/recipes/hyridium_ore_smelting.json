@@ -1,0 +1,12 @@
+{
+  "group": "prismaexemod",
+  "type": "minecraft:smelting",
+  "experience": 2.0999999999999996,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "prismaexemod:hyridium_ore"
+  },
+  "result": {
+    "item": "prismaexemod:hyridium_ingot"
+  }
+}

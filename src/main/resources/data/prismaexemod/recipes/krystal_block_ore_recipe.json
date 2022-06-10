@@ -1,0 +1,13 @@
+{
+  "group": "prismaexemod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "prismaexemod:krystal_block"
+    }
+  ],
+  "result": {
+    "item": "prismaexemod:krystal",
+    "count": 9
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "prismaexemod:items/krystal_hoe"
+  }
+}

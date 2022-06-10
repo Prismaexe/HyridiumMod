@@ -1,0 +1,13 @@
+{
+  "group": "prismaexemod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "prismaexemod:hyridium_block"
+    }
+  ],
+  "result": {
+    "item": "prismaexemod:hyridium_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "prismaexemod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "prismaexemod:hyridium_ingot"
+    },
+    "2": {
+      "item": "prismaexemod:hyridium_ingot"
+    },
+    "3": {
+      "item": "prismaexemod:hyridium_ingot"
+    },
+    "4": {
+      "item": "prismaexemod:hyridium_ingot"
+    },
+    "5": {
+      "item": "prismaexemod:hyridium_ingot"
+    },
+    "6": {
+      "item": "prismaexemod:hyridium_ingot"
+    },
+    "7": {
+      "item": "prismaexemod:hyridium_ingot"
+    },
+    "8": {
+      "item": "prismaexemod:hyridium_ingot"
+    }
+  },
+  "result": {
+    "item": "prismaexemod:hyridium_armor_chestplate",
+    "count": 1
+  }
+}

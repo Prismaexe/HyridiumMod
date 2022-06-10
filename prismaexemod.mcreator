@@ -1,0 +1,397 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "RandomIngot",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "random_ingot"
+    },
+    {
+      "name": "Random",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "random",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RandomOre",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "random_ore"
+    },
+    {
+      "name": "Lithium",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lithium",
+      "path": "~/-----Lithium"
+    },
+    {
+      "name": "LithiumOre",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lithium_ore",
+      "path": "~/-----Lithium"
+    },
+    {
+      "name": "LithiumBlock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lithium_block",
+      "path": "~/-----Lithium"
+    },
+    {
+      "name": "LithiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lithium_ore_block_recipe",
+      "path": "~/-----Lithium"
+    },
+    {
+      "name": "LithiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lithium_block_ore_recipe",
+      "path": "~/-----Lithium"
+    },
+    {
+      "name": "HyridiumMod",
+      "type": "tab",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_mod"
+    },
+    {
+      "name": "HyridiumIngot",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_ingot",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumOre",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_ore",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumBlock",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_block",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_ore_block_recipe",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_block_ore_recipe",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumOreSmelting",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_ore_smelting",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumPickaxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_pickaxe",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumAxe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_axe",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumSword",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_sword",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumShovel",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_shovel",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumHoe",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_hoe",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_pickaxe_recipe",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_axe_recipe",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_sword_recipe",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_shovel_recipe",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_hoe_recipe",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumArmor",
+      "type": "armor",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_armor_helmet_recipe",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_armor_body_recipe",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_armor_leggings_recipe",
+      "path": "~/---Hyridium"
+    },
+    {
+      "name": "HyridiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyridium_armor_boots_recipe",
+      "path": "~/---Hyridium"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.prismaexemod.lithium_block": "Block of Lithium",
+      "item.prismaexemod.hyridium_armor_helmet": "Hyridium Helmet",
+      "item.prismaexemod.hyridium_shovel": "Hyridium Shovel",
+      "item.prismaexemod.random_ore": "Random Ore",
+      "block.prismaexemod.hyridium_block": "Block of Hyridium",
+      "block.prismaexemod.lithium_ore": "Lithium Ore",
+      "item.prismaexemod.hyridium_ingot": "Hyridium",
+      "item.prismaexemod.hyridium_armor_leggings": "Hyridium Leggings",
+      "item.prismaexemod.hyridium_hoe": "Hyridium Hoe",
+      "item.prismaexemod.hyridium_armor_boots": "Hyridium Boots",
+      "itemGroup.tabhyridium_mod": "Hyridium Mod",
+      "item.prismaexemod.hyridium_sword": "Hyridium Sword",
+      "item.prismaexemod.hyridium_pickaxe": "Hyridium Pickaxe",
+      "item.prismaexemod.lithium": "Lithium",
+      "item.prismaexemod.hyridium_axe": "Hyridium Axe",
+      "item.prismaexemod.hyridium_armor_chestplate": "Hyridium Chestplate",
+      "block.prismaexemod.hyridium_ore": "Hyridium Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "-----Lithium",
+        "children": []
+      },
+      {
+        "name": "----Krystal",
+        "children": []
+      },
+      {
+        "name": "---Hyridium",
+        "children": []
+      },
+      {
+        "name": "--Amanium",
+        "children": []
+      },
+      {
+        "name": "-Mythril",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "prismaexemod",
+    "modName": "Prisma.exeMod",
+    "version": "1.0.0",
+    "author": "Arthur, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.prismaexemod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

@@ -1,0 +1,42 @@
+{
+  "group": "prismaexemod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "prismaexemod:lithium"
+    },
+    "1": {
+      "item": "prismaexemod:lithium"
+    },
+    "2": {
+      "item": "prismaexemod:lithium"
+    },
+    "3": {
+      "item": "prismaexemod:lithium"
+    },
+    "4": {
+      "item": "prismaexemod:lithium"
+    },
+    "5": {
+      "item": "prismaexemod:lithium"
+    },
+    "6": {
+      "item": "prismaexemod:lithium"
+    },
+    "7": {
+      "item": "prismaexemod:lithium"
+    },
+    "8": {
+      "item": "prismaexemod:lithium"
+    }
+  },
+  "result": {
+    "item": "prismaexemod:lithium_block",
+    "count": 1
+  }
+}

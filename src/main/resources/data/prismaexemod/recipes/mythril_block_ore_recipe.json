@@ -1,0 +1,13 @@
+{
+  "group": "prismaexemod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "prismaexemod:mythril_block"
+    }
+  ],
+  "result": {
+    "item": "prismaexemod:mythril_ingot",
+    "count": 9
+  }
+}

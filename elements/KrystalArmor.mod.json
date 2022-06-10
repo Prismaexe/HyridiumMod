@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "krystal_head",
+    "enableBody": true,
+    "textureBody": "krystal_body",
+    "enableLeggings": true,
+    "textureLeggings": "krystal_leggings",
+    "enableBoots": true,
+    "textureBoots": "krystal_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "krystal",
+    "helmetName": "Krystal Helmet",
+    "bodyName": "Krystal Chestplate",
+    "leggingsName": "Krystal Leggings",
+    "bootsName": "Krystal Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 60,
+    "damageValueHelmet": 8,
+    "damageValueBody": 20,
+    "damageValueLeggings": 24,
+    "damageValueBoots": 8,
+    "enchantability": 36,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Krystal"
+      }
+    ]
+  }
+}
