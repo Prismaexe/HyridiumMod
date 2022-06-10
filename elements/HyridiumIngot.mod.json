@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "hyridium_ingot",
+    "texture": "hyridium_ingotr",
     "customModelName": "Normal",
     "name": "Hyridium",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:HyridiumMod"
     },
     "stackSize": 64,
     "enchantability": 0,

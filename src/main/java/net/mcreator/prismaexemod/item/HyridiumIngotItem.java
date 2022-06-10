@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.prismaexemod.itemgroup.HyridiumModItemGroup;
 import net.mcreator.prismaexemod.PrismaexemodModElements;
 
 @PrismaexemodModElements.ModElement.Tag
@@ -25,7 +25,7 @@ public class HyridiumIngotItem extends PrismaexemodModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(HyridiumModItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("hyridium_ingot");
 		}
 
